@@ -8,8 +8,16 @@ ATENÇÃO: A GRAFIA DA PALAVRA CONTA, SE "EQUILÁTERO, ISÓCELES E ESCALENO" EST
 */
 // Exemplo de entrada: exercicio1(2, 2, 2)
 // Exemplo de saída: `É um triângulo Equilátero`
-function exercicio2(n1, n2, n3) {
-    return null
+function exercicio2(lado1, lado2, lado3) {
+    if(lado1 == lado2 && lado2 == lado3){
+        return 'Equilátero'
+    } else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3) {
+        return 'Isósceles'        
+    }else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3) { 
+        return 'Escaleno'
+    } else {
+        return null
+    }
 }
 
 module.exports = exercicio2
