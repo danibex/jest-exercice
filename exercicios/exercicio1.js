@@ -8,7 +8,7 @@ multiplicação e divisão desses valores.  */
 // Exemplo de entrada exercicio1(2, 3)
 // Exemplo de saída 'Soma: 5, Subtração: -1, Multiplicação: 6, Divisão: 0.6666666666666666'
 function exercicio1() {
-  return ''
+  return 'teste'
   }
 
 
