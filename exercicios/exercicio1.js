@@ -7,8 +7,12 @@
 multiplicação e divisão desses valores.  */
 // Exemplo de entrada exercicio1(2, 3)
 // Exemplo de saída 'Soma: 5, Subtração: -1, Multiplicação: 6, Divisão: 0.6666666666666666'
-function exercicio1() {
-  return 'teste'
+function exercicio1(x , y) {
+  let soma = x + y
+  let subtracao = x - y
+  let multiplicacao = x * y
+  let divisao = x / y
+  return `Soma: ${soma}, Subtração: ${subtracao}, Multiplicação: ${multiplicacao}, Divisão: ${divisao}`;
   }
 
 
